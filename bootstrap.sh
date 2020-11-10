@@ -10,7 +10,7 @@
 #
 #########################################################
 if [ -z "${TAG}" ]; then
-	TAG=v1.69
+	TAG=v1.70
 fi
 
 
@@ -26,7 +26,7 @@ if [ ! -d $HOME/multipool ]; then
 	echo Downloading MultiPool Installer ${TAG}. . .
 	git clone \
 		-b ${TAG}  \
-		https://github.com/Original-Tasty/multipool_setup \
+		https://github.com/OriginalTasty/Original-Tasty-multipool_setup \
 		"$HOME"/multipool/install \
 		< /dev/null 2> /dev/null
 
